@@ -98,5 +98,52 @@ namespace App1.Views
         {
             await Navigation.PushAsync(new AgregarTareas());
         }
+        private void MostrarBL(object sender, EventArgs e)
+        {
+            // Acceder al Grid por su nombre
+            Grid stackLayout1 = this.FindByName<Grid>("StackLayout1");
+
+            // Verificar si el Grid no es nulo y cambiar la visibilidad
+            if (stackLayout1 != null)
+            {
+                stackLayout1.IsVisible = false;
+            }
+
+            // Busca el StackLayout por su nombre
+            StackLayout stackLayout = this.FindByName<StackLayout>("StackLayout2");
+
+            // Verifica si se encontró el StackLayout
+            if (stackLayout != null)
+            {
+                // Si el StackLayout está visible, lo oculta; si está oculto, lo muestra
+                stackLayout.IsVisible = !stackLayout.IsVisible;
+            }
+        }
+
+
+        private void OcultarBL(object sender, EventArgs e)
+        {
+            // Acceder al StackLayout por su nombre
+            StackLayout stackLayout = this.FindByName<StackLayout>("StackLayout2");
+
+            // Verificar si el StackLayout no es nulo y cambiar la visibilidad
+            if (stackLayout != null)
+            {
+                stackLayout.IsVisible = !stackLayout.IsVisible;
+            }
+
+            // Acceder al Grid por su nombre
+            Grid grid = this.FindByName<Grid>("StackLayout1");
+
+            // Verificar si el Grid no es nulo y cambiar la visibilidad
+            if (grid != null)
+            {
+                grid.IsVisible = !grid.IsVisible;
+            }
+        }
+
     }
 }
+
+    
+
