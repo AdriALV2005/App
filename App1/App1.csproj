@@ -22,9 +22,6 @@
     <Compile Update="Views\Tareas.xaml.cs">
       <DependentUpon>Tareas.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\DescripcionTareas.xaml.cs">
-      <DependentUpon>DescripcionTareas.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>

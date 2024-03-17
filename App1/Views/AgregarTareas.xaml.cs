@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 
 namespace App1.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarTareas : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarTareas : ContentPage
+    {
         public AgregarTareas()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace App1.Views
             // Arrays para los Pickers
             string[] estados = { "Pendiente", "En Progreso", "Completada" };
             string[] categorias = { "Trabajo", "Hogar", "Estudio", "Otro" };
-            string[] colores = { "Azul", "Rojo", "Verde", "Amarillo", "Morado", "Blanco", "Negro" };
+            string[] colores = { "Azul", "Rojo", "Verde", "Amarillo", "Morado" };
 
             // Asignar los arrays a los Pickers
             estadoPicker.ItemsSource = estados;
@@ -29,8 +29,16 @@ namespace App1.Views
         }
         private async void buttonRegreso(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Compras());
+            string titulo = tituloEntry.Text;
+            string descripcion = descripcionEditor.Text;
+            DateTime fecha = fechaDatePicker.Date;
+            string estado = estadoPicker.SelectedItem as string;
+            string categoria = categoriaPicker.SelectedItem as string;
+            string color = colorPicker.SelectedItem as string;
+
+
         }
+
         private async void ButtonAgregarTarea_Clicked(object sender, EventArgs e)
         {
             string titulo = tituloEntry.Text;
@@ -40,18 +48,26 @@ namespace App1.Views
             string categoria = categoriaPicker.SelectedItem as string;
             string color = colorPicker.SelectedItem as string;
 
-            // Obtener la instancia de la página Tareas desde la pila de navegación
-            Compras tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Compras) as Compras;
+            // Crear una instancia de DescripcionTareas con los datos recopilados
+            DescripcionTareas descripcionPage = new DescripcionTareas(titulo, descripcion, fecha, estado, categoria, color);
 
+            // Mostrar la página DescripcionTareas
+          
+
+            // Obtener la página de Tareas para agregar la tarea
+            Tareas tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
+
+            // Verificar si la página de Tareas existe y agregar la tarea
             if (tareasPage != null)
             {
-                // Llamar al método AgregarTarea de la página Tareas pasando los datos de la nueva tarea
                 tareasPage.AgregarTarea(titulo, descripcion, fecha, estado, categoria, color);
             }
 
-            // Volver a la página anterior
+            // Pop la página actual (AgregarTareas)
             await Navigation.PopAsync();
         }
+
+
 
     }
 }

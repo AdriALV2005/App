@@ -1,26 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace App1.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Compras : ContentPage
+    public partial class Tareas : ContentPage
     {
-        public Compras()
+        private bool ultimaTareaEnIzquierda = true;
+
+        public Tareas()
         {
             InitializeComponent();
         }
-        private async void ButtonAgregar(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AgregarTareas());
-        }
-        private bool ultimaTareaEnIzquierda = true;
 
         public void AgregarTarea(string titulo, string descripcion, DateTime fecha, string estado, string categoria, string color)
         {
@@ -30,19 +22,57 @@ namespace App1.Views
                 CornerRadius = 10,
                 Margin = new Thickness(8),
                 HasShadow = false,
-                BackgroundColor = Color.White,
                 Padding = new Thickness(22)
             };
 
+            // Establecer el color de fondo del Frame según el color seleccionado
+            switch (color)
+            {
+                case "Azul":
+                    frame.BackgroundColor = Color.FromHex("#dcffff");
+                    break;
+                case "Rojo":
+                    frame.BackgroundColor = Color.FromHex("#ffbfaf");
+                    break;
+                case "Verde":
+                    frame.BackgroundColor = Color.FromHex("#BDECB6");
+                    break;
+                case "Amarillo":
+                    frame.BackgroundColor = Color.FromHex("#FDFD96");
+                    break;
+                case "Morado":
+                    frame.BackgroundColor = Color.FromHex("#CCA9DD");
+                    break;
+                default:
+                    frame.BackgroundColor = Color.Default;
+                    break;
+            }
+
             var stackLayout = new StackLayout();
-            stackLayout.Children.Add(new Label { Text = titulo, FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = descripcion, FontSize = 13, TextColor = Color.FromHex("#CCCCCC"), CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = $"Fecha: {fecha:d}", FontAttributes = FontAttributes.Bold, FontSize = 22, Margin = new Thickness(0, 10) });
+            stackLayout.Children.Add(new Label { Text = titulo, FontSize = 17, TextColor = Color.Black, CharacterSpacing = 1 });
+            stackLayout.Children.Add(new Label { Text = descripcion, FontSize = 13, TextColor = Color.Black, CharacterSpacing = 1 });
             stackLayout.Children.Add(new Label { Text = $"Estado: {estado}", FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = $"Categoría: {categoria}", FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = $"Color: {color}", FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
+
+            // Agregar botones (puedes agregar lógica para estos botones según tus necesidades)
+            var button1 = new Button { Text = "Botón 1", BackgroundColor = Color.Blue, TextColor = Color.White };
+            var button2 = new Button { Text = "Botón 2", BackgroundColor = Color.Red, TextColor = Color.White };
+            button1.Clicked += (s, e) => { /* Lógica del botón 1 */ };
+            button2.Clicked += (s, e) => { /* Lógica del botón 2 */ };
+
+            stackLayout.Children.Add(button1);
+            stackLayout.Children.Add(button2);
 
             frame.Content = stackLayout;
+
+            // Agregar TapGestureRecognizer al Frame para manejar el toque y navegar a DescripcionTareas
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.Tapped += async (s, e) =>
+            {
+                // Navega a DescripcionTareas y pasa los datos necesarios
+                await Navigation.PushAsync(new DescripcionTareas(titulo, descripcion, fecha, estado, categoria, color));
+            };
+
+            frame.GestureRecognizers.Add(tapGestureRecognizer);
 
             if (ultimaTareaEnIzquierda)
             {
@@ -55,8 +85,9 @@ namespace App1.Views
             ultimaTareaEnIzquierda = !ultimaTareaEnIzquierda;
         }
 
-
-
-
+        private async void ButtonAgregar(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AgregarTareas());
+        }
     }
 }

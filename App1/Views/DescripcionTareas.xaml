@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.Views.AgregarCompras"
+             x:Class="App1.Views.DescripcionTareas"
              NavigationPage.HasNavigationBar="False">
 
     <StackLayout BackgroundColor="White">
@@ -15,58 +15,26 @@
         </Image>
         <StackLayout Padding="36,15"
                      Spacing="20">
-            <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
-                   Margin="0,0,0,30"
-                   HeightRequest="220"/>
-            <Label Text="Manzana"
+
+            <!-- Agrega los controles con los nombres proporcionados -->
+            <Label x:Name="tituloLabel"
                    FontAttributes="Bold"
                    FontSize="36"
                    TextColor="Black"/>
-            <Label Text="500g"
-                   CharacterSpacing="1"
+            <Label x:Name="descripcionLabel"
                    TextColor="Gray"
-                   Margin="0,-8,0,4"
-                   FontSize="14"/>
-            <StackLayout Orientation="Horizontal">
-                <Grid HorizontalOptions="StartAndExpand"
-                      VerticalOptions="Center">
-                    <Frame Padding="0"
-                           BackgroundColor="#EEEEFF"
-                           CornerRadius="20"
-                           HasShadow="False"
-                           HeightRequest="40"
-                           VerticalOptions="Center"
-                           WidthRequest="100">
-                    </Frame>
-                    <Label Text="-"
-                           FontSize="36"
-                           HorizontalOptions="Start"
-                           TextColor="Black"
-                           Margin="16,-2,0,6"/>
-                    <Label Text="1"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           FontSize="18"
-                           FontAttributes="Bold"
-                           TextColor="Black"/>
-                    <Label Text="+"
-                           FontSize="21"
-                           HorizontalOptions="End"
-                           TextColor="Black"
-                           Margin="0,0,16,6"
-                           VerticalOptions="Center"/>
-                </Grid>
-                <Label Text="$5.30"
-                       FontAttributes="Bold"
-                       FontSize="36"
-                       TextColor="Black"/>
-            </StackLayout>
-            <Label Text="Descripcion del producto"
-                   FontAttributes="Bold"
-                   FontSize="18"
+                   FontSize="15"/>
+            <Label x:Name="fechaLabel"
                    TextColor="Black"
+                   FontSize="18"
                    Margin="0,14,0,0"/>
-            <Label Text="Informacion general del producto"
+            <Label x:Name="estadoLabel"
+                   TextColor="Gray"
+                   FontSize="15"/>
+            <Label x:Name="categoriaLabel"
+                   TextColor="Black"
+                   FontSize="18"/>
+            <Label x:Name="colorLabel"
                    TextColor="Gray"
                    FontSize="15"/>
         </StackLayout>
@@ -90,6 +58,7 @@
                        VerticalOptions="Center"
                        Margin="10,0"/>
             </Grid>
+
             <Button Text="Agregar al carrito"
                     BackgroundColor="#FEBB44"
                     CornerRadius="40"
@@ -99,5 +68,6 @@
                     Margin="30,20,0,10"/>
         </StackLayout>
     </StackLayout>
+
 
 </ContentPage>

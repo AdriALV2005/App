@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.Views.Tareas.xaml", "Views/Tareas.xaml", typeof(global::App1.Views.Compras))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.Views.Tareas.xaml", "Views/Tareas.xaml", typeof(global::App1.Views.Tareas))]
 
 namespace App1.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Tareas.xaml")]
-    public partial class Compras : global::Xamarin.Forms.ContentPage {
+    public partial class Tareas : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout Izquierda;
@@ -24,7 +24,7 @@ namespace App1.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Compras));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Tareas));
             Izquierda = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Izquierda");
             Derecha = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Derecha");
         }
