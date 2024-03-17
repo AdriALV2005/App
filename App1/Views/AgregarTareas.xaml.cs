@@ -19,7 +19,7 @@ namespace App1.Views
 
             // Arrays para los Pickers
             string[] estados = { "Pendiente", "En Progreso", "Completada" };
-            string[] categorias = { "Trabajo", "Hogar", "Estudio", "Otro" };
+            string[] categorias = { "Tareas Principales", "Tareas Secundarias" };
             string[] colores = { "Azul", "Rojo", "Verde", "Amarillo", "Morado" };
 
             // Asignar los arrays a los Pickers
@@ -42,10 +42,18 @@ namespace App1.Views
             DescripcionTareas descripcionPage = new DescripcionTareas(titulo, descripcion, fecha, estado, categoria, color);
 
             // Mostrar la página DescripcionTareas
-          
+
 
             // Obtener la página de Tareas para agregar la tarea
-            Tareas tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
+            Tareas tareasPage = null;
+            if (categoria == "Tareas Principales")
+            {
+                tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
+            }
+            else if (categoria == "Tareas Secundarias")
+            {
+                tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
+            }
 
             // Verificar si la página de Tareas existe y agregar la tarea
             if (tareasPage != null)

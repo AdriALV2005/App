@@ -19,7 +19,6 @@
                 <ScrollView HeightRequest="600">
                     <Grid ColumnDefinitions="*,*"
                           Margin="10,0,10,0"
-
                           RowDefinitions="80,*">
                         <StackLayout Orientation="Horizontal"
                                      Grid.ColumnSpan="2">
@@ -81,6 +80,7 @@
             </StackLayout>
         </Grid>
         <!-- PONER FALSE EN LAYOUT-->
+
         <StackLayout
             VerticalOptions="FillAndExpand"
             x:Name="StackLayout2"
@@ -96,52 +96,21 @@
                     <TapGestureRecognizer Tapped="OcultarBL"/>
                 </Label.GestureRecognizers>
             </Label>
-            <CollectionView HeightRequest="300"
-                            VerticalOptions="Center">
-            </CollectionView>
-            <StackLayout Orientation="Horizontal"
-                         Margin="36,0,32,0">
-                <Grid WidthRequest="80">
-                    <Frame CornerRadius="24"
-                           BackgroundColor="#555555"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center">
-                    </Frame>
-                    <Image Source="https://i.ibb.co/fdVCdPz/camion.png"
-                           WidthRequest="26"
-                           HorizontalOptions="Center"/>
-                </Grid>
-                <StackLayout Margin="20,0,100,0">
-                    <Label Text="Delivery"
-                           TextColor="White"/>
-                    <Label Text="All orders of $40 or more quality for FREE delivery."
-                           TextColor="Gray"/>
+            <Grid ColumnDefinitions="*,*"
+                  Margin="10,0,10,0"
+                  RowDefinitions="80,*">
+                <StackLayout x:Name="Izquierda1"
+                             Grid.Column="0"
+                             Grid.Row="1">
                 </StackLayout>
-                <Label Text="$ 10"
-                       TextColor="White"
-                       FontAttributes="bold"
-                       WidthRequest="100"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         Margin="50,50,50,0">
-                <Label Text="Total:"
-                       TextColor="White"
-                       FontSize="30"
-                       FontAttributes="Bold"/>
-                <Label Text="s/37.80"
-                       TextColor="White"
-                       FontSize="30"
-                       FontAttributes="Bold"
-                       HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-            <Button Text="Next"
-                    BackgroundColor="Red"
-                    CornerRadius="30"
-                    TextColor="Black"
-                    Margin="15,20,15,20"
-                    HeightRequest="60"
-                    HorizontalOptions="FillAndExpand"/>
+                <StackLayout x:Name="Derecha1"
+                             Grid.Column="1"
+                             Grid.Row="1"
+                             Margin="0,50,0,0">
+                </StackLayout>
+            </Grid>
         </StackLayout>
+
     </StackLayout>
 
 
