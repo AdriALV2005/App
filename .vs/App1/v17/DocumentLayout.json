@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\adrim\\source\\repos\\App1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\editartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\editartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\editartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\editartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\tareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\tareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\tareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\tareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\adrim\\source\\repos\\app1\\app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +22,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tareas.xaml",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\Tareas.xaml",
-              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\Tareas.xaml",
-              "RelativeToolTip": "App1\\Views\\Tareas.xaml",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAYwHYAAAAOAAAA",
+              "DocumentIndex": 1,
+              "Title": "AgregarTareas.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml",
+              "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml",
+              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml",
+              "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T10:29:36.168Z",
+              "WhenOpened": "2024-03-17T10:12:47.031Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -69,79 +49,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditarTareas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\EditarTareas.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\Views\\EditarTareas.xaml.cs",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\EditarTareas.xaml.cs",
-              "RelativeToolTip": "App1\\Views\\EditarTareas.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:22:50.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditarTareas.xaml",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\EditarTareas.xaml",
-              "RelativeDocumentMoniker": "App1\\Views\\EditarTareas.xaml",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\EditarTareas.xaml",
-              "RelativeToolTip": "App1\\Views\\EditarTareas.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T11:14:52.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tareas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\Tareas.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml.cs",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\Tareas.xaml.cs",
-              "RelativeToolTip": "App1\\Views\\Tareas.xaml.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAIwGMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:01:03.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AgregarTareas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml.cs",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml.cs",
-              "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwC8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:01:04.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DescripcionTareas.xaml",
               "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\DescripcionTareas.xaml",
               "RelativeDocumentMoniker": "App1\\Views\\DescripcionTareas.xaml",
               "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\DescripcionTareas.xaml",
               "RelativeToolTip": "App1\\Views\\DescripcionTareas.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAkAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T10:29:33.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AgregarTareas.xaml",
-              "DocumentMoniker": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml",
-              "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml",
-              "ToolTip": "C:\\Users\\adrim\\source\\repos\\App1\\App1\\Views\\AgregarTareas.xaml",
-              "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml",
-              "ViewState": "AQIAADIAAAAAAAAAAAAYwFgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T10:12:47.031Z",
+              "WhenOpened": "2024-03-17T12:30:07.783Z",
               "EditorCaption": ""
             }
           ]

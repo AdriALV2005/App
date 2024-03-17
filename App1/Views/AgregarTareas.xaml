@@ -4,9 +4,9 @@
              x:Class="App1.Views.AgregarTareas"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#ececf4">
+        <StackLayout BackgroundColor="#f5f5f9">
             <StackLayout>
-                <Grid BackgroundColor="#FABC48" HeightRequest="100">
+                <Grid HeightRequest="100">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
@@ -22,12 +22,13 @@
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Agregar Tarea"
-                           FontSize="24"
+                           FontSize="30"
+
+                           WidthRequest="1000"
+                           Margin="70,0,0,0"
                            FontAttributes="Bold"
-                           HorizontalOptions="Center"
                            VerticalOptions="Center"
-                           TextColor="White"
-                           Grid.Column="1"/>
+                           TextColor="Black"/>
                     <BoxView Grid.Column="2" />
                 </Grid>
             </StackLayout>
@@ -35,6 +36,7 @@
                 <Entry Placeholder="Título"
                        x:Name="tituloEntry"
                        PlaceholderColor="#333333"
+                       HeightRequest="50"
                        Margin="0,20,0,10"
                        BackgroundColor="White"
                        TextColor="#333333"/>
@@ -47,42 +49,45 @@
                         TextColor="#333333"/>
                 <DatePicker x:Name="fechaDatePicker"
                             Format="D"
+                            HeightRequest="50"
                             Margin="0,10,0,10"
                             BackgroundColor="White"
                             TextColor="#333333"/>
-                <Label Text="Estado de la Tarea"
-                       FontSize="Medium"
-                       TextColor="#333333"
-                       Margin="0,10,0,0"/>
+
                 <Picker x:Name="estadoPicker"
                         Title="Seleccionar Estado"
-                        Margin="0,5,0,10"
+                        Margin="0,10,0,10"
+                        HeightRequest="50"
+                        TitleColor="Black"
                         BackgroundColor="White"
                         TextColor="#333333"/>
-                <Label Text="Categoría"
-                       FontSize="Medium"
-                       TextColor="#333333"
-                       Margin="0,10,0,0"/>
+
                 <Picker x:Name="categoriaPicker"
                         Title="Seleccionar Categoría"
-                        Margin="0,5,0,10"
+                        Margin="0,10,0,10"
+                        HeightRequest="50"
+                        TitleColor="Black"
                         BackgroundColor="White"
                         TextColor="#333333"/>
-                <Label Text="Color de Tarea"
-                       FontSize="Medium"
-                       TextColor="#333333"
-                       Margin="0,10,0,0"/>
+
                 <Picker x:Name="colorPicker"
                         Title="Seleccionar Color"
-                        Margin="0,5,0,10"
+                        Margin="0,10,0,10"
+                        TitleColor="Black"
+                        HeightRequest="50"
                         BackgroundColor="White"
                         TextColor="#333333"/>
-                <Button Text="Agregar Tarea"
-                        Margin="0,20,0,0"
+
+                <Button Text="Agregar"
+                        BackgroundColor="#FABC48"
+                        CornerRadius="40"
                         Clicked="ButtonAgregarTarea_Clicked"
-                        BackgroundColor="#2196F3"
-                        TextColor="White"/>
+                        TextTransform="None"
+                        Margin="0,40,0,0"
+                        HeightRequest="54"
+                        WidthRequest="250"/>
             </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

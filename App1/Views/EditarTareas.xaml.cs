@@ -19,5 +19,15 @@ namespace App1.Views
             pickerCategoria.SelectedItem = categoria;
             pickerColor.SelectedItem = color;
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            // Crear una instancia de la página a la que quieres redirigir
+            var Tarea = new Tareas();
+
+            // Utilizar el método PushAsync para navegar a la nueva página
+            Navigation.PushAsync(Tarea);
+        }
+
     }
 }
