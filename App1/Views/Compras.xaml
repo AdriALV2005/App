@@ -9,16 +9,18 @@
 
 
     <StackLayout BackgroundColor="#050506">
+        <!-- MOSTRAR CART PONER FALSE-->
         <Grid RowDefinitions="*,100"
-              IsVisible="false"
               VerticalOptions="FillAndExpand"
-              x:Name="BlackPricipal">
+              >
             <pancake:PancakeView
                 CornerRadius="0,0,40,40"
-                BackgroundColor="#EFEFEC">
+
+                BackgroundColor="#ececf4">
                 <ScrollView HeightRequest="600">
                     <Grid ColumnDefinitions="*,*"
                           Margin="10,0,10,0"
+
                           RowDefinitions="80,*">
                         <StackLayout Orientation="Horizontal"
                                      Grid.ColumnSpan="2">
@@ -47,7 +49,7 @@
                                    Padding="22">
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer
-                                        Tapped="TapGestureRecognizer_Tapped" />
+                                        />
                                 </Frame.GestureRecognizers>
                                 <StackLayout >
                                     <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
@@ -74,11 +76,11 @@
                                    CornerRadius="10"
                                    Margin="8"
                                    HasShadow="False"
+
                                    BackgroundColor="White"
                                    Padding="22">
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Tapped="TapGestureRecognizer_Tapped" />
+
                                 </Frame.GestureRecognizers>
                                 <StackLayout >
                                     <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
@@ -114,8 +116,7 @@
                                    BackgroundColor="White"
                                    Padding="22">
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Tapped="TapGestureRecognizer_Tapped" />
+
                                 </Frame.GestureRecognizers>
                                 <StackLayout >
                                     <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
@@ -145,8 +146,7 @@
                                    BackgroundColor="White"
                                    Padding="22">
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Tapped="TapGestureRecognizer_Tapped" />
+
                                 </Frame.GestureRecognizers>
                                 <StackLayout >
                                     <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
@@ -176,8 +176,7 @@
                                    BackgroundColor="White"
                                    Padding="22">
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Tapped="TapGestureRecognizer_Tapped" />
+
                                 </Frame.GestureRecognizers>
                                 <StackLayout >
                                     <Image Source="https://i.ibb.co/72RhWtQ/580b57fbd9996e24bc43c112.png"
@@ -207,10 +206,13 @@
             <StackLayout Grid.Row="1"
                          Orientation="Horizontal"
                          Margin="20,0,10,0"
-                         x:Name="BlackTitle">
+
+                         >
+
                 <Label Text="Cart"
                        FontSize="30"
                        WidthRequest="100"
+
                        FontAttributes="Bold"
                        VerticalOptions="Center"
                        TextColor="White"/>
@@ -246,11 +248,16 @@
                 </Frame>
             </StackLayout>
         </Grid>
-        <StackLayout x:Name="BlackPanel"
-                     VerticalOptions="FillAndExpand">
+        <!-- MOSTRAR FRUTAS Y VEGETALES PONER FALSE-->
+        <StackLayout
+            VerticalOptions="FillAndExpand"
+            IsVisible="false"
+            >
+
             <Label Text="Cart"
                    TextColor="White"
                    FontSize="32"
+
                    FontAttributes="Bold"
                    Padding="40,28,40,40"
                    HeightRequest="120"
