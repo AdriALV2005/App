@@ -16,7 +16,6 @@
         <StackLayout Padding="36,15"
                      Spacing="20">
 
-            <!-- Agrega los controles con los nombres proporcionados -->
             <Label x:Name="tituloLabel"
                    FontAttributes="Bold"
                    FontSize="36"

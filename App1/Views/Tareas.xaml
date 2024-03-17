@@ -26,10 +26,12 @@
                                    HeightRequest="20"
                                    Margin="10,0,0,0"/>
                             <Label Text="Tareas Principales"
+                                   FontSize="30"
+                                   WidthRequest="1000"
+                                   Margin="20,0,0,0"
+                                   FontAttributes="Bold"
                                    VerticalOptions="Center"
-                                   FontSize="18"
-                                   TextColor="#3D3D3D"
-                                   Margin="30,0,0,0"/>
+                                   TextColor="Black"/>
 
                             <Image Source="https://i.ibb.co/PrfGsmv/control-de-ecualizador.png"
                                    HeightRequest="30"
@@ -85,11 +87,11 @@
             VerticalOptions="FillAndExpand"
             x:Name="StackLayout2"
             IsVisible="false">
-            <Label Text="Cart"
+            <Label Text="Tareas Secundarias"
                    TextColor="White"
                    FontSize="32"
                    FontAttributes="Bold"
-                   Padding="40,28,40,40"
+                   Padding="40,28,40,0"
                    HeightRequest="120"
                    WidthRequest="100">
                 <Label.GestureRecognizers>

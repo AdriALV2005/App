@@ -92,7 +92,13 @@ namespace App1.Views
                 Margin = new Thickness(0, 30, 0, 10) // Margen en la parte superior para separar del contenido
             };
 
-            buttonEditar.Clicked += (s, e) => { /* Lógica del botón 1 */ };
+            // Dentro del método AgregarTarea, después de agregar el evento Clicked al botón "Editar"
+            buttonEditar.Clicked += async (s, e) =>
+            {
+                await Navigation.PushAsync(new EditarTareas(titulo, descripcion, fecha, estado, categoria, color));
+            };
+
+
             stackLayout.Children.Add(buttonEditar);
 
             frame.Content = stackLayout;
@@ -109,11 +115,11 @@ namespace App1.Views
             // Agregar el frame al StackLayout correspondiente según la categoría
             if (categoria == "Tareas Principales")
             {
-                Izquierda.Children.Add(frame);
+                AgregarTareaPrincipal(frame);
             }
             else if (categoria == "Tareas Secundarias")
             {
-                Izquierda1.Children.Add(frame);
+                AgregarTareaSecundaria(frame);
             }
 
             // Configurar el color de fondo del frame según el color seleccionado
@@ -187,6 +193,29 @@ namespace App1.Views
             {
                 grid.IsVisible = !grid.IsVisible;
             }
+        }
+        private void AgregarTareaPrincipal(Frame frame)
+        {
+            // Determinar el contenedor principal
+            StackLayout contenedorPrincipal = ultimaTareaEnIzquierda ? Izquierda : Derecha;
+
+            // Agregar el frame al contenedor principal
+            contenedorPrincipal.Children.Add(frame);
+
+            // Cambiar el estado para la próxima tarea
+            ultimaTareaEnIzquierda = !ultimaTareaEnIzquierda;
+        }
+
+        private void AgregarTareaSecundaria(Frame frame)
+        {
+            // Determinar el contenedor de tareas secundarias
+            StackLayout contenedorSecundario = ultimaTareaEnIzquierda ? Izquierda1 : Derecha1;
+
+            // Agregar el frame al contenedor de tareas secundarias
+            contenedorSecundario.Children.Add(frame);
+
+            // Cambiar el estado para la próxima tarea
+            ultimaTareaEnIzquierda = !ultimaTareaEnIzquierda;
         }
 
     }

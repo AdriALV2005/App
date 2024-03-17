@@ -17,3 +17,4 @@ C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\App1.sourcelink.j
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\AgregarTareas.xaml.g.cs
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\DescripcionTareas.xaml.g.cs
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\Tareas.xaml.g.cs
+C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\EditarTareas.xaml.g.cs
