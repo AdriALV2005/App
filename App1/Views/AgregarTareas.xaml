@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.AgregarTareas"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#ececf4">
+            <StackLayout>
+                <Grid BackgroundColor="#FABC48" HeightRequest="100">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="https://i.ibb.co/k5gTQFK/flecha-izquierda-2.png"
+                           HeightRequest="20"
+                           Margin="20"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="buttonRegreso"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Agregar Tarea"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           TextColor="White"
+                           Grid.Column="1"/>
+                    <BoxView Grid.Column="2" />
+                </Grid>
+            </StackLayout>
+            <StackLayout Padding="20">
+                <Entry Placeholder="Título"
+                       x:Name="tituloEntry"
+                       PlaceholderColor="#333333"
+                       Margin="0,20,0,10"
+                       BackgroundColor="White"
+                       TextColor="#333333"/>
+                <Editor Placeholder="Descripción"
+                        x:Name="descripcionEditor"
+                        PlaceholderColor="#333333"
+                        HeightRequest="100"
+                        Margin="0,10,0,10"
+                        BackgroundColor="White"
+                        TextColor="#333333"/>
+                <DatePicker x:Name="fechaDatePicker"
+                            Format="D"
+                            Margin="0,10,0,10"
+                            BackgroundColor="White"
+                            TextColor="#333333"/>
+                <Label Text="Estado de la Tarea"
+                       FontSize="Medium"
+                       TextColor="#333333"
+                       Margin="0,10,0,0"/>
+                <Picker x:Name="estadoPicker"
+                        Title="Seleccionar Estado"
+                        Margin="0,5,0,10"
+                        BackgroundColor="White"
+                        TextColor="#333333"/>
+                <Label Text="Categoría"
+                       FontSize="Medium"
+                       TextColor="#333333"
+                       Margin="0,10,0,0"/>
+                <Picker x:Name="categoriaPicker"
+                        Title="Seleccionar Categoría"
+                        Margin="0,5,0,10"
+                        BackgroundColor="White"
+                        TextColor="#333333"/>
+                <Label Text="Color de Tarea"
+                       FontSize="Medium"
+                       TextColor="#333333"
+                       Margin="0,10,0,0"/>
+                <Picker x:Name="colorPicker"
+                        Title="Seleccionar Color"
+                        Margin="0,5,0,10"
+                        BackgroundColor="White"
+                        TextColor="#333333"/>
+                <Button Text="Agregar Tarea"
+                        Margin="0,20,0,0"
+                        Clicked="ButtonAgregarTarea_Clicked"
+                        BackgroundColor="#2196F3"
+                        TextColor="White"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

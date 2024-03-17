@@ -12,7 +12,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new SharedTransitionNavigationPage(new AgregarCompras());
+            MainPage = new SharedTransitionNavigationPage(new Compras());
         }
 
         protected override void OnStart()

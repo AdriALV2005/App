@@ -10,7 +10,7 @@
                Margin="20"
                HorizontalOptions="Start">
             <Image.GestureRecognizers>
-                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                <TapGestureRecognizer Tapped="buttonRegreso"/>
             </Image.GestureRecognizers>
         </Image>
         <StackLayout Padding="36,15"
@@ -93,7 +93,6 @@
             <Button Text="Agregar al carrito"
                     BackgroundColor="#FEBB44"
                     CornerRadius="40"
-
                     TextTransform="None"
                     HeightRequest="54"
                     WidthRequest="230"

@@ -10,13 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace App1.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Compras : ContentPage
+    public partial class AgregarCompras : ContentPage
     {
-        public Compras()
+        public AgregarCompras()
         {
             InitializeComponent();
         }
 
-       
+        private async void buttonRegreso(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Compras());
+        }
+
+      
     }
 }

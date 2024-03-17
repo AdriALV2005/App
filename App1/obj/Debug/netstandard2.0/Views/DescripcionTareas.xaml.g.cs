@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.Views.AgregarCompras.xaml", "Views/AgregarCompras.xaml", typeof(global::App1.Views.AgregarCompras))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.Views.DescripcionTareas.xaml", "Views/DescripcionTareas.xaml", typeof(global::App1.Views.AgregarCompras))]
 
 namespace App1.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AgregarCompras.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\DescripcionTareas.xaml")]
     public partial class AgregarCompras : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
