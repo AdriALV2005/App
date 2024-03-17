@@ -18,7 +18,7 @@ namespace App1.Views
         {
             var frame = new Frame
             {
-                HeightRequest = 300,
+                HeightRequest = -1,
                 CornerRadius = 10,
                 Margin = new Thickness(8),
                 HasShadow = false,
@@ -49,18 +49,27 @@ namespace App1.Views
             }
 
             var stackLayout = new StackLayout();
-            stackLayout.Children.Add(new Label { Text = titulo, FontSize = 17, TextColor = Color.Black, CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = descripcion, FontSize = 13, TextColor = Color.Black, CharacterSpacing = 1 });
-            stackLayout.Children.Add(new Label { Text = $"Estado: {estado}", FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
+            stackLayout.Children.Add(new Label { Text = titulo, FontSize = 20, TextColor = Color.Black, CharacterSpacing = 1 });
+            stackLayout.Children.Add(new Label { Text = descripcion, FontSize = 13, TextColor = Color.Gray, CharacterSpacing = 1 });
+            stackLayout.Children.Add(new Label { Text = $"Estado: {estado}", Margin = new Thickness(0, 10, 0, 0) ,FontSize = 16, TextColor = Color.Black, CharacterSpacing = 1 });
 
             // Agregar botones (puedes agregar lógica para estos botones según tus necesidades)
-            var button1 = new Button { Text = "Botón 1", BackgroundColor = Color.Blue, TextColor = Color.White };
-            var button2 = new Button { Text = "Botón 2", BackgroundColor = Color.Red, TextColor = Color.White };
-            button1.Clicked += (s, e) => { /* Lógica del botón 1 */ };
-            button2.Clicked += (s, e) => { /* Lógica del botón 2 */ };
+            var buttonEditar = new Button
+            {
+                Text = "Editar",
+                HeightRequest = 54,
+                WidthRequest = 200,
+                CornerRadius = 40,
+                BackgroundColor = Color.Black,
+                TextColor = Color.White,
+                Margin = new Thickness(0, 30,0, 10) // Margen en la parte superior para separar del contenido
+            };
 
-            stackLayout.Children.Add(button1);
-            stackLayout.Children.Add(button2);
+            buttonEditar.Clicked += (s, e) => { /* Lógica del botón 1 */ };
+          
+
+            stackLayout.Children.Add(buttonEditar);
+
 
             frame.Content = stackLayout;
 

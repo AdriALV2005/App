@@ -9,8 +9,9 @@
 
 
     <StackLayout BackgroundColor="Black">
-        <!-- MOSTRAR CART PONER FALSE-->
+        <!-- MOSTRAR CART, EN GRID PONER FALSE-->
         <Grid RowDefinitions="*,100"
+              IsVisible="false"
               VerticalOptions="FillAndExpand">
             <pancake:PancakeView CornerRadius="0,0,40,40"
                                  BackgroundColor="#f5f5f9">
@@ -24,7 +25,7 @@
                             <Image Source="https://i.ibb.co/k5gTQFK/flecha-izquierda-2.png"
                                    HeightRequest="20"
                                    Margin="10,0,0,0"/>
-                            <Label Text="Frutas y vegetales"
+                            <Label Text="Tareas Principales"
                                    VerticalOptions="Center"
                                    FontSize="18"
                                    TextColor="#3D3D3D"
@@ -49,32 +50,14 @@
             <StackLayout Grid.Row="1"
                          Orientation="Horizontal"
                          Margin="20,0,10,0">
-                <Label Text="Cart"
+                <Label Text="Tareas Secundarias"
                        FontSize="30"
-                       WidthRequest="100"
-
+                       WidthRequest="1000"
                        FontAttributes="Bold"
                        VerticalOptions="Center"
                        TextColor="White"/>
-                <CollectionView HorizontalOptions="CenterAndExpand"
-                                VerticalOptions="Center">
-                    <CollectionView.ItemsLayout>
-                        <GridItemsLayout Orientation="Horizontal"
-                                         Span="1"
-                                         HorizontalItemSpacing="10"/>
-                    </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Grid Margin="4,0"
-                                  WidthRequest="30">
-                                <!-- AQUÍ SE PONEN IMÁGENES EN EL CART -->
-                            </Grid>
-
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-                <Frame HeightRequest="40"
-                       WidthRequest="60"
+                <Frame HeightRequest="50"
+                       WidthRequest="150"
                        VerticalOptions="Center"
                        CornerRadius="30"
                        Padding="5"
@@ -82,34 +65,28 @@
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ButtonAgregar" />
                     </Frame.GestureRecognizers>
-
-                    <Label Text="1"
+                    <Label Text="+"
                            VerticalOptions="Center"
-                           FontSize="15"
+                           FontSize="30"
                            FontAttributes="Bold"
                            VerticalTextAlignment="Center"
                            HorizontalTextAlignment="Center"/>
                 </Frame>
             </StackLayout>
         </Grid>
-        <!-- MOSTRAR FRUTAS Y VEGETALES PONER FALSE-->
+        <!-- PONER FALSE EN LAYOUT-->
         <StackLayout
             VerticalOptions="FillAndExpand"
-            IsVisible="false"
-            >
-
+            IsVisible="true">
             <Label Text="Cart"
                    TextColor="White"
                    FontSize="32"
-
                    FontAttributes="Bold"
                    Padding="40,28,40,40"
                    HeightRequest="120"
                    WidthRequest="100"/>
             <CollectionView HeightRequest="300"
-                            VerticalOptions="Center"
-                            >
-
+                            VerticalOptions="Center">
             </CollectionView>
             <StackLayout Orientation="Horizontal"
                          Margin="36,0,32,0">
@@ -118,12 +95,10 @@
                            BackgroundColor="#555555"
                            HorizontalOptions="Center"
                            VerticalOptions="Center">
-
                     </Frame>
                     <Image Source="https://i.ibb.co/fdVCdPz/camion.png"
                            WidthRequest="26"
-                           HorizontalOptions="Center"
-                           />
+                           HorizontalOptions="Center"/>
                 </Grid>
                 <StackLayout Margin="20,0,100,0">
                     <Label Text="Delivery"
@@ -135,7 +110,6 @@
                        TextColor="White"
                        FontAttributes="bold"
                        WidthRequest="100"/>
-
             </StackLayout>
             <StackLayout Orientation="Horizontal"
                          Margin="50,50,50,0">
@@ -150,12 +124,12 @@
                        HorizontalOptions="EndAndExpand"/>
             </StackLayout>
             <Button Text="Next"
-                    BackgroundColor="#FEBB44"
+                    BackgroundColor="Red"
                     CornerRadius="30"
                     TextColor="Black"
-                    Margin="15,0,15,20"
-                    VerticalOptions="EndAndExpand"
-                    HeightRequest="60"/>
+                    Margin="15,20,15,20"
+                    HeightRequest="60"
+                    HorizontalOptions="FillAndExpand"/>
         </StackLayout>
     </StackLayout>
 

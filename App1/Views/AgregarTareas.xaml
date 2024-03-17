@@ -18,7 +18,7 @@
                            HorizontalOptions="Start"
                            VerticalOptions="Center" >
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="buttonRegreso"/>
+                            <TapGestureRecognizer />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Agregar Tarea"

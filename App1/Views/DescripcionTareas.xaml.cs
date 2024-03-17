@@ -30,13 +30,11 @@ namespace App1.Views
         }
 
         // Otros constructores, métodos y propiedades de la clase...
-    
 
 
 
-    private async void buttonRegreso(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Tareas());
-        }
+
+      
+
     }
 }

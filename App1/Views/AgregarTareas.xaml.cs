@@ -27,17 +27,7 @@ namespace App1.Views
             categoriaPicker.ItemsSource = categorias;
             colorPicker.ItemsSource = colores;
         }
-        private async void buttonRegreso(object sender, EventArgs e)
-        {
-            string titulo = tituloEntry.Text;
-            string descripcion = descripcionEditor.Text;
-            DateTime fecha = fechaDatePicker.Date;
-            string estado = estadoPicker.SelectedItem as string;
-            string categoria = categoriaPicker.SelectedItem as string;
-            string color = colorPicker.SelectedItem as string;
-
-
-        }
+  
 
         private async void ButtonAgregarTarea_Clicked(object sender, EventArgs e)
         {
