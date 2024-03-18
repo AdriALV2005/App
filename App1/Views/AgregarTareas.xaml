@@ -33,7 +33,7 @@
                 </Grid>
             </StackLayout>
             <StackLayout Padding="20">
-                <Entry Placeholder="Título"
+                <Entry Placeholder="Título  "
                        x:Name="tituloEntry"
                        PlaceholderColor="#333333"
                        HeightRequest="50"

@@ -1,6 +1,9 @@
 App1.Droid.MainActivity, App1.Android;crc64ad68f59cd763e462.MainActivity
 App1.Droid.MainActivity;crc64ad68f59cd763e462.MainActivity
 app1.droid.MainActivity;crc64ad68f59cd763e462.MainActivity
+App1.Droid.SplashScreen, App1.Android;crc64ad68f59cd763e462.SplashScreen
+App1.Droid.SplashScreen;crc64ad68f59cd763e462.SplashScreen
+app1.droid.SplashScreen;crc64ad68f59cd763e462.SplashScreen
 Plugin.SharedTransitions.Platforms.Android.NavigationTransitionListener, Plugin.SharedTransitions;crc6479820c45fd9c6153.NavigationTransitionListener
 Plugin.SharedTransitions.Platforms.Android.NavigationTransitionListener;crc6479820c45fd9c6153.NavigationTransitionListener
 plugin.sharedtransitions.platforms.android.NavigationTransitionListener;crc6479820c45fd9c6153.NavigationTransitionListener

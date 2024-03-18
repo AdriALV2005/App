@@ -68,6 +68,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -91,13 +92,45 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\App1\App1.csproj">
       <Project>{FA33D8D5-B3EE-4E6B-9EB2-6EEFD1D1408D}</Project>
       <Name>App1</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Splash.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logoga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\icon2.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon2_adaptive_back.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon2_adaptive_fore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\icon2.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon2_adaptive_back.png" />
+    <Content Include="Resources\mipmap-mdpi\icon2_adaptive_fore.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon2.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon2_adaptive_back.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon2_adaptive_fore.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon2.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon2_adaptive_back.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon2_adaptive_fore.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon2.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon2_adaptive_back.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon2_adaptive_fore.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties XamarinHotReloadGenericExceptionInfoBarApp1AndroidHideInfoBar="True" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
