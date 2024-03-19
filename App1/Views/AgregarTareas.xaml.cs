@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+using App1.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,10 +27,11 @@ namespace App1.Views
             categoriaPicker.ItemsSource = categorias;
             colorPicker.ItemsSource = colores;
         }
-  
+
 
         private async void ButtonAgregarTarea_Clicked(object sender, EventArgs e)
         {
+            // Obtener los datos del formulario
             string titulo = tituloEntry.Text;
             string descripcion = descripcionEditor.Text;
             DateTime fecha = fechaDatePicker.Date;
@@ -38,34 +39,39 @@ namespace App1.Views
             string categoria = categoriaPicker.SelectedItem as string;
             string color = colorPicker.SelectedItem as string;
 
-            // Crear una instancia de DescripcionTareas con los datos recopilados
-            DescripcionTareas descripcionPage = new DescripcionTareas(titulo, descripcion, fecha, estado, categoria, color);
+            // Crear una instancia del ViewModel para interactuar con la API REST
+            ViewModels.ViewModels viewModel = new ViewModels.ViewModels();
 
-            // Mostrar la página DescripcionTareas
-
-
-            // Obtener la página de Tareas para agregar la tarea
-            Tareas tareasPage = null;
-            if (categoria == "Tareas Principales")
+            try
             {
-                tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
-            }
-            else if (categoria == "Tareas Secundarias")
-            {
-                tareasPage = Navigation.NavigationStack.FirstOrDefault(page => page is Tareas) as Tareas;
-            }
+                // Llamar al método del ViewModel para agregar una nueva tarea
+                string resultado = await viewModel.CrearDatos(titulo, descripcion, fecha, estado, categoria, color);
 
-            // Verificar si la página de Tareas existe y agregar la tarea
-            if (tareasPage != null)
-            {
-                tareasPage.AgregarTarea(titulo, descripcion, fecha, estado, categoria, color);
-            }
+                // Mostrar mensaje de éxito
+                await DisplayAlert("Éxito", resultado, "OK");
 
-            // Pop la página actual (AgregarTareas)
-            await Navigation.PopAsync();
+                // Limpiar los campos del formulario
+                LimpiarCampos();
+
+                // Regresar a la página anterior (pop)
+                await Navigation.PopAsync();
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que ocurra
+                await DisplayAlert("Error", "Hubo un error al agregar la tarea: " + ex.Message, "OK");
+            }
         }
 
-
-
+        // Método para limpiar los campos del formulario
+        private void LimpiarCampos()
+        {
+            tituloEntry.Text = string.Empty;
+            descripcionEditor.Text = string.Empty;
+            fechaDatePicker.Date = DateTime.Now;
+            estadoPicker.SelectedIndex = -1;
+            categoriaPicker.SelectedIndex = -1;
+            colorPicker.SelectedIndex = -1;
+        }
     }
 }

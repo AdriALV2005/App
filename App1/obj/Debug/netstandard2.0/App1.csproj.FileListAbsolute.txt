@@ -18,6 +18,10 @@ C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\AgregarTare
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\DescripcionTareas.xaml.g.cs
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\Tareas.xaml.g.cs
 C:\Users\adrim\source\repos\App1\App1\obj\Debug\netstandard2.0\Views\EditarTareas.xaml.g.cs
+D:\App\App1\bin\Debug\netstandard2.0\App1.deps.json
+D:\App\App1\bin\Debug\netstandard2.0\App1.dll
+D:\App\App1\bin\Debug\netstandard2.0\ref\App1.dll
+D:\App\App1\bin\Debug\netstandard2.0\App1.pdb
 D:\App\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
 D:\App\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
 D:\App\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
@@ -29,10 +33,6 @@ D:\App\App1\obj\Debug\netstandard2.0\Views\Tareas.xaml.g.cs
 D:\App\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
 D:\App\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
 D:\App\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
-D:\App\App1\bin\Debug\netstandard2.0\App1.deps.json
-D:\App\App1\bin\Debug\netstandard2.0\App1.dll
-D:\App\App1\bin\Debug\netstandard2.0\ref\App1.dll
-D:\App\App1\bin\Debug\netstandard2.0\App1.pdb
 D:\App\App1\obj\Debug\netstandard2.0\XamlC.stamp
 D:\App\App1\obj\Debug\netstandard2.0\App1.dll
 D:\App\App1\obj\Debug\netstandard2.0\refint\App1.dll

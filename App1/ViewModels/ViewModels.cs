@@ -15,13 +15,13 @@ namespace App1.ViewModels
     using Newtonsoft.Json;
     using App1.Rest;
     using App1.Models;
-    class ViewModels
+    public class ViewModels
     {
         // Método para obtener los datos de la vista desde la API
         public async Task<List<Datos>> DatosVista()
         {
             RestService restService = new RestService();
-            string vista = await restService.Get("http://localhost:81/apirest/datos/vista");
+            string vista = await restService.Get("http://192.168.1.37:81/apirest/datos/vista");
             List<Datos> datos = JsonConvert.DeserializeObject<List<Datos>>(vista);
             return datos;
         }
@@ -40,14 +40,14 @@ namespace App1.ViewModels
                 Color = color
             };
             string jsonData = JsonConvert.SerializeObject(dataObject);
-            return await restService.Post("http://localhost:81/apirest/datos/nuevo/", jsonData);
+            return await restService.Post("http://192.168.1.37:81/apirest/datos/nuevo/", jsonData);
         }
 
         // Método para buscar datos en la API por ID
         public async Task<List<Datos>> BuscarDatos(int id)
         {
             RestService restService = new RestService();
-            string vista = await restService.Get($"http://localhost:81/apirest/datos/buscar/{id}");
+            string vista = await restService.Get($"http://192.168.1.37:81/apirest/datos/buscar/{id}");
             List<Datos> datos = JsonConvert.DeserializeObject<List<Datos>>(vista);
             return datos;
         }
@@ -67,7 +67,7 @@ namespace App1.ViewModels
                 Color = color
             };
             string jsonData = JsonConvert.SerializeObject(dataObject);
-            return await restService.Put($"http://localhost:81/apirest/datos/editar/{id}", jsonData);
+            return await restService.Put($"http://192.168.1.37:81/apirest/datos/editar/{id}", jsonData);
         }
 
         // Método para eliminar datos en la API por ID
