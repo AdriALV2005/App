@@ -3578,24 +3578,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smith\\.nuget\\packages\\": {},
+    "C:\\Users\\adrim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\adrim\\source\\repos\\App\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\App1.Android.csproj",
-      "packagesPath": "C:\\Users\\smith\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\obj\\",
+      "projectPath": "C:\\Users\\adrim\\source\\repos\\App\\App1.Android\\App1.Android.csproj",
+      "packagesPath": "C:\\Users\\adrim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adrim\\source\\repos\\App\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\smith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adrim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3609,8 +3609,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj": {
-              "projectPath": "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj"
+            "C:\\Users\\adrim\\source\\repos\\App\\App1\\App1.csproj": {
+              "projectPath": "C:\\Users\\adrim\\source\\repos\\App\\App1\\App1.csproj"
             }
           }
         }
@@ -3628,14 +3628,6 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
@@ -3643,14 +3635,6 @@
           "Xamarin.Forms.PancakeView": {
             "target": "Package",
             "version": "[2.3.0.759, )"
-          },
-          "Xamarin.Forms.PancakeView": {
-            "target": "Package",
-            "version": "[2.3.0.759, )"
-          },
-          "Xamarin.Plugin.SharedTransitions": {
-            "target": "Package",
-            "version": "[2.4.0, )"
           },
           "Xamarin.Plugin.SharedTransitions": {
             "target": "Package",
