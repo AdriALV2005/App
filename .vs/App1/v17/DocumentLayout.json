@@ -1,64 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\smith\\Desktop\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\smith\\Desktop\\2\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\data\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\data\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\resources\\mipmap-anydpi-v26\\icon2.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\mipmap-anydpi-v26\\icon2.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\resources\\drawable\\splash.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\drawable\\splash.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\App\\app1.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\views\\tareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\obj\\debug\\netstandard2.0\\mainpage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\obj\\debug\\netstandard2.0\\mainpage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\agregartareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\resources\\mipmap-anydpi-v26\\icon2.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\mipmap-anydpi-v26\\icon2.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\resources\\drawable\\splash.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\drawable\\splash.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|C:\\Users\\smith\\Desktop\\2\\App\\app1.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD5011D5-A1D3-428C-8632-7CF244E1F2E4}|App1.Android\\App1.Android.csproj|solutionrelative:app1.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\views\\tareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\tareas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\views\\tareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\views\\tareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\tareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\smith\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\app\\app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|c:\\users\\smith\\desktop\\2\\app\\app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{A91E0753-A342-461D-AEFF-ECC8CCC63B25}|App1\\App1.csproj|solutionrelative:app1\\views\\descripciontareas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
@@ -69,17 +89,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "AgregarTareas.xaml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\AgregarTareas.xaml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\AgregarTareas.xaml",
               "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\AgregarTareas.xaml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\AgregarTareas.xaml",
               "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-17T10:12:47.031Z",
               "IsPinned": true,
@@ -87,42 +107,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Splash.xml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\drawable\\Splash.xml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\drawable\\Splash.xml",
               "RelativeDocumentMoniker": "App1.Android\\Resources\\drawable\\Splash.xml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\drawable\\Splash.xml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\drawable\\Splash.xml",
               "RelativeToolTip": "App1.Android\\Resources\\drawable\\Splash.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-03-17T17:09:57.122Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "styles.xml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\values\\styles.xml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\values\\styles.xml",
               "RelativeDocumentMoniker": "App1.Android\\Resources\\values\\styles.xml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\values\\styles.xml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\values\\styles.xml",
               "RelativeToolTip": "App1.Android\\Resources\\values\\styles.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-03-17T16:55:40.031Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "colors.xml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\values\\colors.xml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\values\\colors.xml",
               "RelativeDocumentMoniker": "App1.Android\\Resources\\values\\colors.xml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\values\\colors.xml",
               "RelativeToolTip": "App1.Android\\Resources\\values\\colors.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-03-17T17:03:27.37Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -147,134 +170,210 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "App1.Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\MainActivity.cs",
-              "RelativeToolTip": "App1.Android\\MainActivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App.xaml.cs",
+              "RelativeToolTip": "App1\\App.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T16:53:05.36Z"
+              "WhenOpened": "2024-03-17T14:57:12.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AgregarTareas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\AgregarTareas.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml.cs",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\AgregarTareas.xaml.cs",
-              "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAwwB4AAAAAAAAA",
+              "Title": "tarea.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Models\\tarea.cs",
+              "RelativeDocumentMoniker": "App1\\Models\\tarea.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Models\\tarea.cs",
+              "RelativeToolTip": "App1\\Models\\tarea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:39:05.59Z"
+              "WhenOpened": "2024-03-19T14:18:54.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SplashScreen.cs",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\SplashScreen.cs",
-              "RelativeDocumentMoniker": "App1.Android\\SplashScreen.cs",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\SplashScreen.cs",
-              "RelativeToolTip": "App1.Android\\SplashScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\MainPage.xaml.cs",
+              "RelativeToolTip": "App1\\MainPage.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T16:51:17.024Z"
+              "WhenOpened": "2024-03-19T16:44:34.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLiteHelper.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Data\\SQLiteHelper.cs",
+              "RelativeDocumentMoniker": "App1\\Data\\SQLiteHelper.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Data\\SQLiteHelper.cs",
+              "RelativeToolTip": "App1\\Data\\SQLiteHelper.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwCwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T15:00:06.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "icon2.xml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
-              "RelativeDocumentMoniker": "App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
-              "RelativeToolTip": "App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-17T18:24:14.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\App.xaml.cs",
-              "RelativeToolTip": "App1\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:57:12.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Tareas.xaml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\Tareas.xaml",
-              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\Tareas.xaml",
-              "RelativeToolTip": "App1\\Views\\Tareas.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABbAAAA",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\MainPage.xaml",
+              "RelativeToolTip": "App1\\MainPage.xaml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswDgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T14:20:25.803Z"
+              "WhenOpened": "2024-03-17T15:46:55.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Xamarin.Forms.targets",
-              "DocumentMoniker": "C:\\Users\\smith\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
-              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
-              "ToolTip": "C:\\Users\\smith\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
-              "RelativeToolTip": "..\\..\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAswHkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-17T15:07:54.473Z"
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App.xaml",
+              "RelativeDocumentMoniker": "App1\\App.xaml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App.xaml",
+              "RelativeToolTip": "App1\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T14:20:21.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "App1\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeToolTip": "App1\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T17:33:47.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Tareas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\Tareas.xaml.cs",
-              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml.cs",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\Tareas.xaml.cs",
-              "RelativeToolTip": "App1\\Views\\Tareas.xaml.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAQwOEAAAAAAAAA",
+              "Title": "App1",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj",
+              "RelativeDocumentMoniker": "App1\\App1.csproj",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj",
+              "RelativeToolTip": "App1\\App1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T14:59:35.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "App1.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\MainActivity.cs",
+              "RelativeToolTip": "App1.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:40:18.967Z"
+              "WhenOpened": "2024-03-17T16:53:05.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\MainPage.xaml",
-              "RelativeDocumentMoniker": "App1\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\MainPage.xaml",
-              "RelativeToolTip": "App1\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T15:46:55.814Z"
+              "Title": "AgregarTareas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\AgregarTareas.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\Views\\AgregarTareas.xaml.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\AgregarTareas.xaml.cs",
+              "RelativeToolTip": "App1\\Views\\AgregarTareas.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAwwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T14:39:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SplashScreen.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\SplashScreen.cs",
+              "RelativeDocumentMoniker": "App1.Android\\SplashScreen.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\SplashScreen.cs",
+              "RelativeToolTip": "App1.Android\\SplashScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:51:17.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\App.xaml",
-              "RelativeDocumentMoniker": "App1\\App.xaml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\App.xaml",
-              "RelativeToolTip": "App1\\App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T14:20:21.996Z"
+              "Title": "icon2.xml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
+              "RelativeDocumentMoniker": "App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
+              "RelativeToolTip": "App1.Android\\Resources\\mipmap-anydpi-v26\\icon2.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-17T18:24:14.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DescripcionTareas.xaml",
-              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\DescripcionTareas.xaml",
-              "RelativeDocumentMoniker": "App1\\Views\\DescripcionTareas.xaml",
-              "ToolTip": "C:\\Users\\smith\\Desktop\\App\\App1\\Views\\DescripcionTareas.xaml",
-              "RelativeToolTip": "App1\\Views\\DescripcionTareas.xaml",
-              "ViewState": "AQIAAAQAAAAAAAAAAIBJwCIAAAAiAAAA",
+              "DocumentIndex": 17,
+              "Title": "Tareas.xaml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\Tareas.xaml",
+              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\Tareas.xaml",
+              "RelativeToolTip": "App1\\Views\\Tareas.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T12:30:07.783Z"
+              "WhenOpened": "2024-03-17T14:20:25.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Xamarin.Forms.targets",
+              "DocumentMoniker": "C:\\Users\\smith\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
+              "ToolTip": "C:\\Users\\smith\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\buildTransitive\\Xamarin.Forms.targets",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswHkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-17T15:07:54.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tareas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\Tareas.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\Views\\Tareas.xaml.cs",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\Tareas.xaml.cs",
+              "RelativeToolTip": "App1\\Views\\Tareas.xaml.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAQwOEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T14:40:18.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DescripcionTareas.xaml",
+              "DocumentMoniker": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\DescripcionTareas.xaml",
+              "RelativeDocumentMoniker": "App1\\Views\\DescripcionTareas.xaml",
+              "ToolTip": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\Views\\DescripcionTareas.xaml",
+              "RelativeToolTip": "App1\\Views\\DescripcionTareas.xaml",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBZwCIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T12:30:07.783Z",
+              "EditorCaption": ""
             }
           ]
         },

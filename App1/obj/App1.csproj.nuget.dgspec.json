@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj": {}
+    "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj": {
+    "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\smith\\Desktop\\App\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\smith\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smith\\Desktop\\App\\App1\\obj\\",
+        "outputPath": "C:\\Users\\smith\\Desktop\\2\\App\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,6 +71,10 @@
             "Xamarin.Plugin.SharedTransitions": {
               "target": "Package",
               "version": "[2.4.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
