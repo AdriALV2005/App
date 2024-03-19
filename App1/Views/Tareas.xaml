@@ -9,7 +9,6 @@
 
 
     <StackLayout BackgroundColor="Black">
-
         <Grid RowDefinitions="*,100"
               IsVisible="true"
               x:Name="StackLayout1"
@@ -81,6 +80,7 @@
                 </Frame>
             </StackLayout>
         </Grid>
+        
         <!-- PONER FALSE EN LAYOUT-->
 
         <StackLayout

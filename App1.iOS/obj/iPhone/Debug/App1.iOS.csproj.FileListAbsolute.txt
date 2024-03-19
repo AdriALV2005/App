@@ -1,0 +1,13 @@
+D:\App\App1.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\App\App1.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\App\App1.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+D:\App\App1.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\App\App1.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\App\App1.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\App\App1.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\App\App1.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+D:\App\App1.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+D:\App\App1.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+D:\App\App1.iOS\obj\iPhone\Debug\optimized\
+D:\App\App1.iOS\obj\iPhone\Debug\App1.iOS.csproj.AssemblyReference.cache
+D:\App\App1.iOS\obj\iPhone\Debug\App1.iOS.csproj.CoreCompileInputs.cache
